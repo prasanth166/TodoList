@@ -41,6 +41,10 @@ header h1{
     color:var(--gray);
     margin-bottom: 1rem;
 }
+input,button{
+
+    font-size: 1.25rem;
+}
 #new-task-form{
     display: flex;
 }

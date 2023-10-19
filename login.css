@@ -1,45 +1,48 @@
-*{
-    margin: 0;
-    padding:0;
-    box-sizing: border-box;
-    font-family: "poppins,sans-serif";
-}
-body{
-    background-color: antiquewhite;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    width: 100vW;
-    background-attachment: fixed;
-}
-#form{
-    width:400px;
-    margin:25vh auto 0 auto;
-    background-color: rgba(4, 35, 43, 0.7);
-    border-radius:5px;
-    padding: 30px;
-    box-shadow: 5px 5px rgba(6, 8, 9, 0.5);
-}
-
-h2{
-    text-align: center;
-    color:whitesmoke;
-}
-.inputgrp{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 25px;
-}
-#logbtn{
-    padding: 4px;
-    width: 50%;
-    border-radius: 20px;
-    border:3px solid rgb(63,63,164);
-    background-color: rgb(41,134,134);
-    margin-top: 20px;
-    margin-left: 25%;
-}
-
-.inputgrp label{
-    color: white;
-}
+.h1 
+ { 
+   color:#d65a84; 
+  
+ } 
+ .container 
+ { 
+     text-align: center; 
+  
+     z-index: 1; 
+ } 
+ button { 
+   background-color: purple; 
+   color: white; 
+ cursor: pointer; 
+ } 
+  
+ .btn{ 
+     width:100px; 
+     padding: 5px; 
+  
+ } 
+ body{ 
+     background-image: url(pexels1.jpg); 
+     background-size: cover; 
+     background-repeat: no-repeat; 
+     height: 100vh;
+ } 
+ .login 
+ { 
+   text-decoration: none; 
+   color:white; 
+   font-size: larger; 
+   border-radius: 10px; 
+   border-color: aqua; 
+ } 
+ .btn{ 
+   font-size: larger; 
+   border-radius: 10px; 
+   border-color: aqua; 
+   color:black; 
+ }
+ label{
+    font-size: larger;
+ }
+ input{
+    padding: 5px;
+ }
