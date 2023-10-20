@@ -31,7 +31,7 @@ body{
 }
 header{
     padding: 2rem 1rem;
-    max-width: 600px;
+    max-width: 500px;
     width: 100%;
     margin: 0 auto;
 
@@ -162,9 +162,12 @@ main{
 .task .actions .delete{
     color:crimson;
 }
-@media only screen and (max-width:600px){
-    form{
-     
-          width:100% !important;
+
+.home{
+    text-decoration: none;
+}
+@media only screen and (max-width:600px) {
+    .task-list{
+        width:90%;
     }
 }
