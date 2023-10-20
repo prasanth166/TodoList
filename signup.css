@@ -55,3 +55,9 @@ h1{
 .input-group.error input{
     border-color:rgb(206,67,67);
 }
+@media only screen and (max-width:600px){
+    form{
+     
+          width:100% !important;
+    }
+}

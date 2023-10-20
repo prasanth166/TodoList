@@ -34,7 +34,7 @@
    border-radius: 10px; 
    border-color: aqua; 
  } 
- .btn{ 
+ .btn1{ 
    font-size: larger; 
    border-radius: 10px; 
    border-color: aqua; 
@@ -46,3 +46,5 @@
  input{
     padding: 5px;
  }
+ 
+ 

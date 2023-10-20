@@ -9,9 +9,10 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container"> 
-        <form action="loginform.html" onsubmit="return validateInputs()" id="form"> 
+    <div class="container-fluid"> 
+        <form class="mx-auto" action="loginform.html" onsubmit="return validateInputs()" id="form"> 
             <h1>Sign Up</h1> 
+            <div class="mb-3 mt-5">
             <div class="input-group"> 
                 <label for="username">Username</label> 
                 <input type="text" id="username" name="username"> 
@@ -32,10 +33,11 @@
                 <input type="password" id="cpassword" name="cpassword"> 
                 <div class="error"></div> 
             </div> 
+            </div>
             <button type="submit">Register</button> 
         </form> 
     </div>
-    
+
    
     <script src="signup.js"></script> 
 </body>
