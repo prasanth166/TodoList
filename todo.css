@@ -18,6 +18,7 @@ body{
     background-color: var(--dark); 
     background-repeat: no-repeat; 
     background-attachment: fixed; 
+    background-size: cover;
 } 
 .todo{ 
     width:450px; 
@@ -101,4 +102,10 @@ ul li span{
 ul li span:hover{ 
     background: #a5a7ab; 
 }
+@media only screen and (max-width:600px) {   
+    .row1 input{
+        width: 200%;
+    }
 
+    
+}
