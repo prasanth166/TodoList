@@ -103,8 +103,9 @@ ul li span:hover{
     background: #a5a7ab; 
 }
 @media only screen and (max-width:600px) {   
-    .row1 input{
-        width: 200%;
+    .row1 {
+        width: 100%;
+        background-attachment: fixed;
     }
 
     
